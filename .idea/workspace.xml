@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9f6da37d-a7ef-47ce-8970-5929cb1747f0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/remix.code-snippets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/error-boundary.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/floating-toolbar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/forms.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/progress-bar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/search-bar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/spacer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/toaster.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ui/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ui/button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ui/checkbox.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ui/dropdown-menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ui/icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ui/icons/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ui/icons/name.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ui/icons/sprite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ui/input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ui/label.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ui/sonner.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ui/status-button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ui/textarea.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ui/tooltip.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/entry.client.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/entry.server.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/root.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/$.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_auth+/auth.$provider.callback.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_auth+/auth.$provider.callback.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_auth+/auth.$provider.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_auth+/forgot-password.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_auth+/login.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_auth+/login.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_auth+/logout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_auth+/onboarding.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_auth+/onboarding.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_auth+/onboarding_.$provider.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_auth+/onboarding_.$provider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_auth+/reset-password.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_auth+/reset-password.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_auth+/signup.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_auth+/verify.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_auth+/verify.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_marketing+/about.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_marketing+/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_marketing+/logos/docker.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_marketing+/logos/eslint.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_marketing+/logos/faker.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_marketing+/logos/fly.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_marketing+/logos/github.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_marketing+/logos/logos.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_marketing+/logos/msw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_marketing+/logos/playwright.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_marketing+/logos/prettier.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_marketing+/logos/prisma.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_marketing+/logos/radix.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_marketing+/logos/react-email.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_marketing+/logos/remix.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_marketing+/logos/resend.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_marketing+/logos/sentry.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_marketing+/logos/shadcn-ui.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_marketing+/logos/sqlite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_marketing+/logos/stars.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_marketing+/logos/tailwind.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_marketing+/logos/testing-library.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_marketing+/logos/typescript.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_marketing+/logos/vitest.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_marketing+/logos/zod.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_marketing+/privacy.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_marketing+/support.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_marketing+/tailwind-preset.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_marketing+/tos.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_seo+/robots[.]txt.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_seo+/sitemap[.]xml.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/admin+/cache.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/admin+/cache_.lru.$cacheKey.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/admin+/cache_.sqlite.$cacheKey.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/admin+/cache_.sqlite.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/admin+/cache_.sqlite.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/me.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/resources+/download-user-data.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/resources+/healthcheck.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/resources+/note-images.$imageId.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/resources+/user-images.$imageId.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/settings+/profile.change-email.server.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/settings+/profile.change-email.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/settings+/profile.connections.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/settings+/profile.index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/settings+/profile.password.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/settings+/profile.password_.create.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/settings+/profile.photo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/settings+/profile.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/settings+/profile.two-factor.disable.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/settings+/profile.two-factor.index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/settings+/profile.two-factor.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/settings+/profile.two-factor.verify.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/users+/$username.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/users+/$username.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/users+/$username_+/__note-editor.server.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/users+/$username_+/__note-editor.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/users+/$username_+/notes.$noteId.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/users+/$username_+/notes.$noteId_.edit.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/users+/$username_+/notes.index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/users+/$username_+/notes.new.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/users+/$username_+/notes.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/users+/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/tailwind.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/auth.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/cache.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/client-hints.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/connections.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/connections.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/db.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/email.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/env.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/extended-theme.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/honeypot.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/litefs.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/misc.error-message.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/misc.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/misc.use-double-check.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/monitoring.client.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/monitoring.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/nonce-provider.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/permissions.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/providers/github.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/providers/provider.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/redirect-cookie.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/request-info.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/session.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/theme.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/timing.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/toast.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/totp.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/user-validation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/user.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/verification.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fly.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/build-icons.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/build-server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/litefs.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/setup-swap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/sly/sly.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/sly/transform-icon.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/svg-icons/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/svg-icons/arrow-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/svg-icons/arrow-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/svg-icons/avatar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/svg-icons/camera.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/svg-icons/check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/svg-icons/clock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/svg-icons/cross-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/svg-icons/dots-horizontal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/svg-icons/download.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/svg-icons/envelope-closed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/svg-icons/exit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/svg-icons/file-text.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/svg-icons/github-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/svg-icons/laptop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/svg-icons/link-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/svg-icons/lock-closed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/svg-icons/lock-open-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/svg-icons/magnifying-glass.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/svg-icons/moon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/svg-icons/pencil-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/svg-icons/pencil-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/svg-icons/plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/svg-icons/question-mark-circled.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/svg-icons/reset.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/svg-icons/sun.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/svg-icons/trash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/svg-icons/update.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playwright.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prisma/migrations/20230914194400_init/migration.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prisma/migrations/migration_lock.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prisma/schema.prisma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prisma/seed.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicons/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicons/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicons/android-chrome-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicons/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicons/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicons/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicons/favicon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicons/mask-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/site.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/dev-server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/db-utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/e2e/2fa.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/e2e/error-boundary.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/e2e/note-images.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/e2e/onboarding.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/e2e/settings-profile.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/github/ghost.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/images/kody-notes/cute-koala.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/images/kody-notes/koala-coder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/images/kody-notes/koala-cuddle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/images/kody-notes/koala-eating.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/images/kody-notes/koala-mentor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/images/kody-notes/koala-soccer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/images/kody-notes/mountain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/images/notes/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/images/notes/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/images/notes/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/images/notes/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/images/notes/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/images/notes/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/images/notes/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/images/notes/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/images/notes/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/images/notes/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/images/user/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/images/user/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/images/user/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/images/user/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/images/user/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/images/user/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/images/user/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/images/user/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/images/user/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/images/user/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/images/user/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/images/user/kody.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/mocks/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/mocks/github.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/mocks/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/mocks/resend.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/mocks/utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/playwright-utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/setup/custom-matchers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/setup/db-setup.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/setup/global-setup.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/setup/setup-test-env.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/deps.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/env.env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/icon-name.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/reset.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vitest.config.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2eQQoG7tj1uosdzF4nUxiau9hRW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ShelveChangesManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f6da37d-a7ef-47ce-8970-5929cb1747f0" name="Changes" comment="" />
+      <created>1711834495102</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711834495102</updated>
+      <workItem from="1711834496381" duration="3244000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
