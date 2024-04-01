@@ -1,22 +1,15 @@
-import { type Config } from 'tailwindcss'
-import animatePlugin from 'tailwindcss-animate'
-import radixPlugin from 'tailwindcss-radix'
-import { marketingPreset } from './app/routes/_marketing+/tailwind-preset'
-import { extendedTheme } from './app/utils/extended-theme.ts'
+import { nextui } from '@nextui-org/react';
+import  { type Config } from 'tailwindcss';
 
 export default {
-	content: ['./app/**/*.{ts,tsx,jsx,js}'],
-	darkMode: 'class',
+	content: [
+		'./app/**/*.{ts,tsx,jsx,js}',
+		'./node_modules/@wesp-up/ui/**/*.js',
+		'./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}',
+	],
 	theme: {
-		container: {
-			center: true,
-			padding: '2rem',
-			screens: {
-				'2xl': '1400px',
-			},
-		},
-		extend: extendedTheme,
+		extend: {},
 	},
-	presets: [marketingPreset],
-	plugins: [animatePlugin, radixPlugin],
-} satisfies Config
+	darkMode: 'class',
+	plugins: [nextui()],
+} satisfies Config;
