@@ -4,62 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f6da37d-a7ef-47ce-8970-5929cb1747f0" name="Changes" comment="Working state with a custom server. Removed all the Epic Stack routes and specifics. TODO: Remove unused dependencies.">
-      <change beforePath="$PROJECT_DIR$/.eslintrc.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.cjs" afterDir="false" />
+    <list default="true" id="9f6da37d-a7ef-47ce-8970-5929cb1747f0" name="Changes" comment="Add linting and formatting">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierignore" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/error-boundary.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/floating-toolbar.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/forms.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/progress-bar.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/search-bar.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/spacer.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/toaster.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/ui/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/ui/button.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/ui/checkbox.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/ui/dropdown-menu.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/ui/icon.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/ui/icons/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/ui/icons/name.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/ui/icons/sprite.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/ui/input.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/ui/label.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/ui/sonner.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/ui/status-button.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/ui/textarea.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/ui/tooltip.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/root.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/root.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/_index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/_index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playwright.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/playwright.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/build-server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build-server.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/db-utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/db-utils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/2fa.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/e2e/2fa.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/error-boundary.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/e2e/error-boundary.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/note-images.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/e2e/note-images.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/onboarding.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/e2e/onboarding.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/settings-profile.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/e2e/settings-profile.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/mocks/github.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/mocks/github.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/mocks/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/mocks/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/mocks/resend.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/mocks/resend.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/mocks/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/mocks/utils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/playwright-utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/playwright-utils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/setup/custom-matchers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/setup/custom-matchers.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/setup/db-setup.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/setup/db-setup.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/setup/global-setup.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/setup/global-setup.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/setup/setup-test-env.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/setup/setup-test-env.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/utils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/types/icon-name.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/icon-name.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/types/reset.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/reset.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vitest.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vitest.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remix-production-stack.iml" beforeDir="false" afterPath="$PROJECT_DIR$/remix-production-stack.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +27,7 @@
       </list>
     </option>
   </component>
+  <component name="GOROOT" url="file:///usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -98,37 +48,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/wesp/code/github.com/wrporter/remix-production-stack&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/wesp/code/github.com/wrporter/remix-production-stack/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/Users/wesp/code/github.com/wrporter/remix-production-stack",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
+    "ts.external.directory.path": "/Users/wesp/code/github.com/wrporter/remix-production-stack/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;JSON&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JSON"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/routes" />
@@ -157,7 +108,7 @@
       <workItem from="1711834496381" duration="3244000" />
       <workItem from="1711838860537" duration="9372000" />
       <workItem from="1712013529212" duration="1602000" />
-      <workItem from="1712017511075" duration="657000" />
+      <workItem from="1712017511075" duration="1378000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -183,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711995067636</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add linting and formatting">
+      <option name="closed" value="true" />
+      <created>1712024685181</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712024685181</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,7 +163,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Working state with a custom server. Removed all the Epic Stack routes and specifics. TODO: Remove unused dependencies." />
-    <option name="LAST_COMMIT_MESSAGE" value="Working state with a custom server. Removed all the Epic Stack routes and specifics. TODO: Remove unused dependencies." />
+    <MESSAGE value="Add linting and formatting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add linting and formatting" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
