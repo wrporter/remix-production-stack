@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f6da37d-a7ef-47ce-8970-5929cb1747f0" name="Changes" comment="Add linting and formatting">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_app.blog.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.cjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/remix-production-stack.iml" beforeDir="false" afterPath="$PROJECT_DIR$/remix-production-stack.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/_index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/_app._index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +61,7 @@
     "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/Users/wesp/code/github.com/wrporter/remix-production-stack",
+    "last_opened_file_path": "/Users/wesp/code/github.com/wrporter/remix-production-stack/app/routes",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -108,7 +110,7 @@
       <workItem from="1711834496381" duration="3244000" />
       <workItem from="1711838860537" duration="9372000" />
       <workItem from="1712013529212" duration="1602000" />
-      <workItem from="1712017511075" duration="1378000" />
+      <workItem from="1712017511075" duration="2855000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -142,7 +144,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712024685181</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add linting and formatting">
+      <option name="closed" value="true" />
+      <created>1712025331053</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712025331053</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add linting and formatting">
+      <option name="closed" value="true" />
+      <created>1712025334841</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712025334841</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

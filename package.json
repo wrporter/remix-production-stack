@@ -7,7 +7,7 @@
     "build": "run-s build:*",
     "build:remix": "remix vite:build --sourcemapClient --sourcemapServer",
     "build:server": "tsx scripts/build-server.ts",
-    "dev": "tsx watch --clear-screen=false --ignore \".cache/**\" --ignore \"app/**\" --ignore \"vite.config.ts.timestamp-*\" --ignore \"build/**\" --ignore \"node_modules/**\" --inspect ./server/main.ts",
+    "dev": "tsx watch --clear-screen=false --ignore \".cache/**\" --ignore \"app/**\" --ignore \"vite.config.ts.timestamp-*\" --ignore \"build/**\" --ignore \"node_modules/**\" ./server/main.ts",
     "format": "prettier --write .",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
