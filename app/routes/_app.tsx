@@ -4,7 +4,7 @@ import { Outlet } from '@remix-run/react';
 export default function Index() {
     return (
         <>
-            <Navbar>
+            <Navbar maxWidth="full">
                 <NavbarBrand>
                     <p className="font-bold text-inherit">Playground</p>
                 </NavbarBrand>
@@ -13,7 +13,7 @@ export default function Index() {
                         <Link href="/">Home</Link>
                     </NavbarItem>
                     <NavbarItem>
-                        <Link href="/blog">Blog</Link>
+                        <Link href="/todo">Todo</Link>
                     </NavbarItem>
                 </NavbarContent>
             </Navbar>
