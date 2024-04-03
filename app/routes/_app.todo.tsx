@@ -43,7 +43,7 @@ export default function Index() {
 
 function Lists() {
     return (
-        <div className="App">
+        <div className="flex flex-wrap gap-8">
             <List name="Todo" />
             <List name="Chores" />
         </div>
@@ -57,13 +57,22 @@ interface ItemModel {
 }
 
 export function List({ name }: { name: string }) {
-    const [items, setItems] = useState<ItemModel[]>(
-        JSON.parse(localStorage.getItem(name) ?? '[]') as ItemModel[],
-    );
+    const [items, setItems] = useState<ItemModel[]>([]);
+    const [isFirstLoad, setIsFirstLoad] = useState(true);
 
     useEffect(() => {
-        localStorage.setItem(name, JSON.stringify(items));
-    }, [items, name]);
+        if (items.length === 0) {
+            setItems(JSON.parse(window.localStorage.getItem(name) ?? '[]') as ItemModel[]);
+        }
+    }, [name]);
+
+    useEffect(() => {
+        if (!isFirstLoad) {
+            localStorage.setItem(name, JSON.stringify(items));
+        } else {
+            setIsFirstLoad(false);
+        }
+    }, [isFirstLoad, items, name]);
 
     const handleAdd = (text: string) => {
         setItems([...items, { id: getId(5), text, complete: false }]);
@@ -83,11 +92,11 @@ export function List({ name }: { name: string }) {
         <div className="flex flex-col space-y-2">
             <h2 className="text-xl">{name}</h2>
 
+            <AddItem onAdd={handleAdd} />
+
             {items.map((item) => (
                 <Item key={item.id} {...item} onUpdate={handleItemUpdate} />
             ))}
-
-            <AddItem onAdd={handleAdd} />
 
             <div>
                 <button

@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f6da37d-a7ef-47ce-8970-5929cb1747f0" name="Changes" comment="Add multiple routes">
+    <list default="true" id="9f6da37d-a7ef-47ce-8970-5929cb1747f0" name="Changes" comment="Add a simple todo list">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/root.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/root.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/_app.blog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/_app.todo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/_app.todo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/_app.todo.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +106,7 @@
       <workItem from="1711834496381" duration="3244000" />
       <workItem from="1711838860537" duration="9372000" />
       <workItem from="1712013529212" duration="1602000" />
-      <workItem from="1712017511075" duration="6755000" />
+      <workItem from="1712017511075" duration="7984000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -166,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712027906842</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add a simple todo list">
+      <option name="closed" value="true" />
+      <created>1712167509038</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1712167509038</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +195,8 @@
     <MESSAGE value="Working state with a custom server. Removed all the Epic Stack routes and specifics. TODO: Remove unused dependencies." />
     <MESSAGE value="Add linting and formatting" />
     <MESSAGE value="Add multiple routes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add multiple routes" />
+    <MESSAGE value="Add a simple todo list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add a simple todo list" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
