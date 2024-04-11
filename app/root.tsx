@@ -1,14 +1,6 @@
 import { NextUIProvider } from '@nextui-org/react';
 import { type LinksFunction, type MetaFunction } from '@remix-run/node';
-import {
-    Links,
-    LiveReload,
-    Meta,
-    Outlet,
-    Scripts,
-    ScrollRestoration,
-    useNavigate,
-} from '@remix-run/react';
+import { Links, Meta, Outlet, Scripts, ScrollRestoration, useNavigate } from '@remix-run/react';
 import tailwindStyleSheetUrl from '~/tailwind.css?url';
 
 export const links: LinksFunction = () => {
@@ -37,7 +29,6 @@ export default function App() {
                     <Outlet />
                     <ScrollRestoration />
                     <Scripts />
-                    <LiveReload />
                 </NextUIProvider>
             </body>
         </html>

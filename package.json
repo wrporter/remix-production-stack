@@ -86,8 +86,8 @@
     "prisma": "^5.11.0",
     "prom-client": "^15.1.1",
     "qrcode": "^1.5.3",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "18.3.0-canary-670811593-20240322",
+    "react-dom": "18.3.0-canary-670811593-20240322",
     "remix-auth": "^3.6.0",
     "remix-auth-form": "^1.4.0",
     "remix-auth-github": "^1.7.0",
@@ -154,6 +154,10 @@
     "vite": "^5.1.6",
     "vite-tsconfig-paths": "^4.3.2",
     "vitest": "^1.4.0"
+  },
+  "overrides": {
+    "react": "18.3.0-canary-670811593-20240322",
+    "react-dom": "18.3.0-canary-670811593-20240322"
   },
   "engines": {
     "node": "20"
