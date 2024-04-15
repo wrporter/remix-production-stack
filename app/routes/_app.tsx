@@ -15,6 +15,9 @@ export default function Index() {
                     <NavbarItem>
                         <Link href="/todo">Todo</Link>
                     </NavbarItem>
+                    <NavbarItem>
+                        <Link href="/planets-and-films">Planets and Films</Link>
+                    </NavbarItem>
                 </NavbarContent>
             </Navbar>
 

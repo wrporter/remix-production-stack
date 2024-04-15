@@ -1,141 +1,127 @@
-import { type LoaderFunctionArgs, defer } from '@remix-run/node';
-import { Await, NavLink, useFetcher, useLoaderData, useSearchParams } from '@remix-run/react';
-import { Suspense, useEffect } from 'react';
+import {
+    Pagination,
+    Spinner,
+    Table,
+    TableBody,
+    TableCell,
+    TableColumn,
+    TableHeader,
+    TableRow,
+} from '@nextui-org/react';
+import { type HeadersFunction, type LoaderFunctionArgs, defer } from '@remix-run/node';
+import { Await, useLoaderData, useNavigate, useSearchParams } from '@remix-run/react';
+import { Suspense } from 'react';
+import {
+    type FilmData,
+    type PlanetResponse,
+    filmCache,
+    planetCache,
+} from '~/lib/planets-and-films.cache.ts';
+
+export const headers: HeadersFunction = () => ({
+    'Cache-Control': 'public, max-age=60, s-maxage=3600',
+});
 
 export async function loader({ request }: LoaderFunctionArgs) {
     const url = new URL(request.url);
-    const page = url.searchParams.get('page');
+    const page = url.searchParams.get('page') ?? '1';
 
-    const response = fetch(`https://swapi.py4e.com/api/planets${page ? `?page=${page}` : ''}`).then(
-        (response) => response.json(),
+    let planetResponse:
+        | { planetResponse: PlanetResponse; filmCache: typeof filmCache }
+        | Promise<{ planetResponse: PlanetResponse; filmCache: typeof filmCache }>;
+
+    if (planetCache[page]) {
+        planetResponse = { planetResponse: planetCache[page], filmCache };
+    } else {
+        planetResponse = fetch(`https://swapi.py4e.com/api/planets?page=${page}`).then((response) =>
+            response.json().then(async (data) => {
+                const planetResponse = data as PlanetResponse;
+
+                await Promise.all(
+                    [
+                        ...planetResponse.results
+                            .reduce((filmUrls, planet) => {
+                                if (planet.films.length > 0) {
+                                    filmUrls.add(planet.films[0]);
+                                }
+                                return filmUrls;
+                            }, new Set<string>())
+                            .keys(),
+                    ].map(async (filmUrl) => {
+                        if (filmCache[filmUrl]) {
+                            return filmCache[filmUrl];
+                        }
+                        const response = await fetch(filmUrl);
+                        filmCache[filmUrl] = (await response.json()) as FilmData;
+                        return filmCache[filmUrl];
+                    }),
+                );
+
+                planetCache[page] = planetResponse;
+                return { planetResponse: planetCache[page], filmCache };
+            }),
+        );
+    }
+
+    return defer(
+        { data: planetResponse },
+        {
+            headers: {
+                'Cache-Control': 'public, max-age=60, s-maxage=3600',
+            },
+        },
     );
-    return defer({ planetResponse: response as Promise<PlanetResponse> });
 }
 
 export default function Index() {
-    const { planetResponse } = useLoaderData<typeof loader>();
+    const { data } = useLoaderData<typeof loader>();
     const [searchParams] = useSearchParams();
-    const page = searchParams.get('page') || 1;
+    const navigate = useNavigate();
+    const page = Number.parseInt(searchParams.get('page') || '1', 10);
 
     return (
         <div className="w-96 m-4">
-            <Suspense fallback="Loading...">
-                <Await resolve={planetResponse}>
-                    {({ results: planets, next, previous }) => {
-                        return (
-                            <>
-                                <table className="border-collapse table-auto w-full text-sm">
-                                    <thead>
-                                        <tr>
-                                            <th className="border-b dark:border-slate-600 font-medium p-4 pl-8 pt-0 pb-3 text-slate-400 dark:text-slate-200 text-left">
-                                                Planet
-                                            </th>
-                                            <th className="border-b dark:border-slate-600 font-medium p-4 pl-8 pt-0 pb-3 text-slate-400 dark:text-slate-200 text-left">
-                                                First Film Appearance
-                                            </th>
-                                        </tr>
-                                    </thead>
-
-                                    <tbody className="bg-white dark:bg-slate-800">
-                                        {planets.map(({ url, name, films }) => (
-                                            <tr key={url}>
-                                                <td className="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">
-                                                    {name}
-                                                </td>
-                                                <td className="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">
-                                                    {films.length === 0 ? (
-                                                        <div>N/A</div>
-                                                    ) : (
-                                                        <Film url={films[0]} />
-                                                    )}
-                                                </td>
-                                            </tr>
-                                        ))}
-                                    </tbody>
-                                </table>
-
-                                <div className="flex justify-between items-center mt-2">
-                                    {previous ? (
-                                        <NavLink to={`?page=${getPage(previous)}`}>
-                                            {'< Previous'}
-                                        </NavLink>
-                                    ) : (
-                                        'N/A'
-                                    )}
-
-                                    <div>{page}</div>
-
-                                    {next ? (
-                                        <NavLink to={`?page=${getPage(next)}`}>{'Next >'}</NavLink>
-                                    ) : (
-                                        'N/A'
-                                    )}
+            <Suspense fallback={<Spinner />}>
+                <Await resolve={data}>
+                    {({
+                        planetResponse: { results: planets, next, previous, count },
+                        filmCache,
+                    }) => (
+                        <Table
+                            bottomContent={
+                                <div className="flex w-full justify-center">
+                                    <Pagination
+                                        showControls
+                                        page={page}
+                                        total={Math.ceil(count / 10)}
+                                        onChange={(page) => navigate(`?page=${page}`)}
+                                    />
                                 </div>
-                            </>
-                        );
-                    }}
+                            }
+                        >
+                            <TableHeader>
+                                <TableColumn>Planet</TableColumn>
+                                <TableColumn>First Film Appearance</TableColumn>
+                            </TableHeader>
+
+                            <TableBody>
+                                {planets.map(({ url, name, films }) => (
+                                    <TableRow key={url}>
+                                        <TableCell>{name}</TableCell>
+                                        <TableCell>
+                                            <Film film={filmCache[films[0]]} />
+                                        </TableCell>
+                                    </TableRow>
+                                ))}
+                            </TableBody>
+                        </Table>
+                    )}
                 </Await>
             </Suspense>
         </div>
     );
 }
 
-function getPage(url: string) {
-    return new URL(url).searchParams.get('page');
-}
-
-export interface FilmData {
-    title: string;
-    episode_id: number;
-    opening_crawl: string;
-    director: string;
-    producer: string;
-    release_date: string;
-    characters: string[]; // urls
-    planets: string[]; // urls
-    starships: string[]; // urls
-    vehicles: string[]; // urls
-    species: string[]; // urls
-    created: string;
-    edited: string;
-    url: string;
-}
-
-interface Planet {
-    name: string;
-    films: string[]; // urls
-
-    rotation_period: string;
-    orbital_period: string;
-    diameter: string;
-    climate: string;
-    gravity: string;
-    terrain: string;
-    surface_water: string;
-    population: string;
-    residents: string[]; // urls
-    created: string;
-    edited: string;
-    url: string;
-}
-
-interface PlanetResponse {
-    previous: string;
-    next: string;
-    count: number;
-    results: Planet[];
-}
-
-const filmUrlRegex = /https:\/\/swapi\.py4e\.com\/api\/films\/(\d+)\//;
-
-export function Film({ url }: { url: string }) {
-    const fetcher = useFetcher<FilmData>();
-
-    useEffect(() => {
-        const match = filmUrlRegex.exec(url);
-        const filmId = match?.[1];
-        fetcher.load(filmId as string);
-    }, []);
-
-    return <div>{fetcher.data ? fetcher.data.title : 'Loading...'}</div>;
+export function Film({ film }: { film: FilmData }) {
+    return <div>{film?.title ? film.title : 'N/A'}</div>;
 }

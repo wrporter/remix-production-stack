@@ -11,6 +11,8 @@ module.exports = {
         '@wesp-up/eslint-config-react/jest-testing-library',
     ],
     rules: {
+        // Allow ES Module import syntax
+        'import/extensions': 'off',
         'import/no-default-export': 'off',
         // playwright requires destructuring in fixtures even if you don't use anything 🤷‍♂️
         'no-empty-pattern': 'off',
