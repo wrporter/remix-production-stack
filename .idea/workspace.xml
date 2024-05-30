@@ -5,8 +5,66 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f6da37d-a7ef-47ce-8970-5929cb1747f0" name="Changes" comment="Add a simple todo list">
+      <change afterPath="$PROJECT_DIR$/app/lib/components/focus-ring.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lib/components/ih-button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lib/components/q-button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.cjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/_app.todo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/_app.todo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playwright.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/db-utils.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/e2e/2fa.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/e2e/error-boundary.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/e2e/note-images.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/e2e/onboarding.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/e2e/settings-profile.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/github/ghost.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/kody-notes/cute-koala.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/kody-notes/koala-coder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/kody-notes/koala-cuddle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/kody-notes/koala-eating.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/kody-notes/koala-mentor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/kody-notes/koala-soccer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/kody-notes/mountain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/notes/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/notes/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/notes/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/notes/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/notes/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/notes/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/notes/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/notes/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/notes/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/notes/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/user/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/user/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/user/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/user/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/user/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/user/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/user/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/user/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/user/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/user/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/user/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/user/kody.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/mocks/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/mocks/github.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/mocks/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/mocks/resend.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/mocks/utils.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/playwright-utils.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/setup/custom-matchers.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/setup/db-setup.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/setup/global-setup.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/setup/setup-test-env.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/utils.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +80,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="false" />
+    <option name="myAllFileTypesSelected" value="true" />
+    <option name="mySelectedFileTypes">
+      <set />
     </option>
   </component>
   <component name="GOROOT" url="file:///usr/local/go" />
@@ -34,6 +100,16 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="false" />
+    <option name="myAllFileTypesSelected" value="true" />
+    <option name="mySelectedFileTypes">
+      <set />
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -57,7 +133,10 @@
     "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/Users/wesp/code/github.com/wrporter/remix-production-stack/app/routes",
+    "javascript.nodejs.core.library.configured.version": "22.2.0",
+    "javascript.nodejs.core.library.typings.version": "20.12.13",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/wesley.porter/src/github.com/wrporter/remix-production-stack/app/lib/components",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -68,8 +147,8 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
-    "ts.external.directory.path": "/Users/wesp/code/github.com/wrporter/remix-production-stack/node_modules/typescript/lib",
+    "settings.editor.selected.configurable": "settings.nodejs",
+    "ts.external.directory.path": "/Users/wesley.porter/src/github.com/wrporter/remix-production-stack/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -80,6 +159,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/lib/components" />
       <recent name="$PROJECT_DIR$/app/routes" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/server" />
@@ -89,6 +169,14 @@
       <recent name="$PROJECT_DIR$/scripts" />
       <recent name="$PROJECT_DIR$/app" />
     </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="ShelveChangesManager">
     <option name="groupingKeys">
@@ -107,6 +195,12 @@
       <workItem from="1711838860537" duration="9372000" />
       <workItem from="1712013529212" duration="1602000" />
       <workItem from="1712017511075" duration="7984000" />
+      <workItem from="1715915325023" duration="4926000" />
+      <workItem from="1715986758621" duration="116000" />
+      <workItem from="1715986892883" duration="16726000" />
+      <workItem from="1716477621121" duration="2079000" />
+      <workItem from="1717033486149" duration="9562000" />
+      <workItem from="1717091085723" duration="1530000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -201,5 +295,9 @@
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

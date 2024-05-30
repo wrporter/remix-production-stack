@@ -1,6 +1,6 @@
 const vitestFiles = ['app/**/__tests__/**/*', 'app/**/*.{spec,test}.*'];
 const testFiles = ['**/tests/**', ...vitestFiles];
-const appFiles = ['**/*'];
+const appFiles = ['**/*', '**/.*'];
 
 /** @type {import('@types/eslint').Linter.Config} */
 module.exports = {
