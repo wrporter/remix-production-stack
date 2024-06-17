@@ -5,66 +5,77 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f6da37d-a7ef-47ce-8970-5929cb1747f0" name="Changes" comment="Add a simple todo list">
-      <change afterPath="$PROJECT_DIR$/app/lib/components/focus-ring.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lib/components/ih-button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lib/components/q-button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.cjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/database/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/database/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/.npmrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/.prettierignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/app/components/error-boundary.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/app/root.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/app/routes/$.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/app/routes/_index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/app/styles/tailwind.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/app/utils/db.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/app/utils/misc.error-message.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/app/utils/misc.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/drizzle.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/eslint.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/migrations/0000_jazzy_doctor_strange.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/migrations/meta/0000_snapshot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/migrations/meta/_journal.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/other/build-server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/prettier.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/server/db-schema.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/server/env.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/server/log.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/server/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/tailwind.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/tests/setup-test-env.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/types/env.env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/vite.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/main/vitest.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/apps/legacy/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/apps/legacy/.eslintignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/apps/legacy/.eslintrc.cjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/apps/legacy/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/_app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playwright.config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/db-utils.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/2fa.test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/error-boundary.test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/note-images.test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/onboarding.test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/settings-profile.test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/github/ghost.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/kody-notes/cute-koala.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/kody-notes/koala-coder.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/kody-notes/koala-cuddle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/kody-notes/koala-eating.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/kody-notes/koala-mentor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/kody-notes/koala-soccer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/kody-notes/mountain.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/notes/0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/notes/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/notes/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/notes/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/notes/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/notes/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/notes/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/notes/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/notes/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/notes/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/user/0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/user/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/user/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/user/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/user/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/user/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/user/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/user/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/user/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/user/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/user/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/images/user/kody.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/mocks/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/mocks/github.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/mocks/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/mocks/resend.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/mocks/utils.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/playwright-utils.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/setup/custom-matchers.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/setup/db-setup.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/setup/global-setup.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/setup/setup-test-env.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/utils.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.npmrc" beforeDir="false" afterPath="$PROJECT_DIR$/apps/legacy/.npmrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/components/focus-ring.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/legacy/app/lib/components/focus-ring.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/components/ih-button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/legacy/app/lib/components/ih-button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/components/q-button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/legacy/app/lib/components/q-button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/planets-and-films.cache.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/legacy/app/lib/planets-and-films.cache.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/root.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/legacy/app/root.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/_app._index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/legacy/app/routes/_app._index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/_app.planets-and-films.$filmId.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/legacy/app/routes/_app.planets-and-films.$filmId.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/_app.planets-and-films.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/legacy/app/routes/_app.planets-and-films.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/_app.todo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/legacy/app/routes/_app.todo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/legacy/app/routes/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tailwind.css" beforeDir="false" afterPath="$PROJECT_DIR$/apps/legacy/app/tailwind.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/legacy/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/legacy/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/legacy/postcss.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/apps/legacy/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build-server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/legacy/scripts/build-server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/env.server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/legacy/server/env.server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/logger.server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/legacy/server/logger.server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/legacy/server/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/legacy/server/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/legacy/tailwind.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/legacy/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types/deps.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/legacy/types/deps.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types/env.env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/legacy/types/env.env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types/icon-name.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/legacy/types/icon-name.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types/reset.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/legacy/types/reset.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/legacy/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitest.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/legacy/vitest.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,29 +95,27 @@
       </list>
     </option>
   </component>
-  <component name="FormatOnSaveOptions">
-    <option name="myRunOnSave" value="false" />
-    <option name="myAllFileTypesSelected" value="true" />
-    <option name="mySelectedFileTypes">
-      <set />
-    </option>
-  </component>
   <component name="GOROOT" url="file:///usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;wrporter&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/wrporter/remix-production-stack.git&quot;,
+    &quot;accountId&quot;: &quot;69b67ffa-3b23-4547-95ff-a971eaef1a91&quot;
+  }
+}</component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="true" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="OptimizeOnSaveOptions">
-    <option name="myRunOnSave" value="false" />
-    <option name="myAllFileTypesSelected" value="true" />
-    <option name="mySelectedFileTypes">
-      <set />
-    </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -134,9 +143,9 @@
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
     "javascript.nodejs.core.library.configured.version": "22.2.0",
-    "javascript.nodejs.core.library.typings.version": "20.12.13",
+    "javascript.nodejs.core.library.typings.version": "20.14.2",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/wesley.porter/src/github.com/wrporter/remix-production-stack/app/lib/components",
+    "last_opened_file_path": "/Users/wesp/code/src/github.com/wrporter/remix-production-stack/apps/database",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -144,30 +153,35 @@
     "node.js.selected.package.standard": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/wesp/code/src/github.com/wrporter/remix-production-stack/apps/main/node_modules/prettier",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "settings.nodejs",
-    "ts.external.directory.path": "/Users/wesley.porter/src/github.com/wrporter/remix-production-stack/node_modules/typescript/lib",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "ts.external.directory.path": "/Users/wesp/code/src/github.com/wrporter/remix-production-stack/apps/main/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "TEXT",
       "JSON"
     ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/apps/database" />
+      <recent name="$PROJECT_DIR$/apps" />
+      <recent name="$PROJECT_DIR$/apps/main" />
       <recent name="$PROJECT_DIR$/app/lib/components" />
       <recent name="$PROJECT_DIR$/app/routes" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/server" />
-      <recent name="$PROJECT_DIR$/app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/apps/main" />
+      <recent name="$PROJECT_DIR$/apps/main/app/routes" />
+      <recent name="$PROJECT_DIR$/apps/main/tests" />
+      <recent name="$PROJECT_DIR$/apps/legacy" />
       <recent name="$PROJECT_DIR$/scripts" />
-      <recent name="$PROJECT_DIR$/app" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -201,6 +215,8 @@
       <workItem from="1716477621121" duration="2079000" />
       <workItem from="1717033486149" duration="9562000" />
       <workItem from="1717091085723" duration="1530000" />
+      <workItem from="1717796793638" duration="7403000" />
+      <workItem from="1718109791870" duration="14350000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
